@@ -50,7 +50,7 @@ To test the functionality of the stored procedure [dbo].[FindPOIs], you can use 
 
 ### Case 1: No Search Criteria
 
-To retrieve all Points of Interest (POIs) within 200 meters from a dummy location in Phoenix ('POINT(-112.133493 33.568018)'), execute the following command:
+If you don't specify search criteria parameters, stored procedure will retrieve all Points of Interest (POIs) within 200 meters from a dummy location in Phoenix ('POINT(-112.133493 33.568018)'), execute the following command:
 
 ```sql
 EXEC [dbo].[FindPOIs]
