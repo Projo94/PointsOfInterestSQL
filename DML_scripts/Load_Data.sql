@@ -30,7 +30,7 @@ CREATE INDEX idx_temp_brand ON #temp (brand);
 
 -- Bulk insert data from the CSV file into the temporary table
 BULK INSERT #temp
-FROM 'C:\Users\marprojo\Downloads\phoenix.csv'
+FROM 'C:\Users\marprojo\Downloads\phoenix.csv'-- change to your csv file path
 WITH (
     FORMAT = 'CSV',
     FIELDTERMINATOR = ',',
